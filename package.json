@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/pretry",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Promise retry with exponential backoff, jitter, AbortSignal cancellation, and a custom retriable predicate. Zero dependencies.",
   "keywords": [
     "retry",
