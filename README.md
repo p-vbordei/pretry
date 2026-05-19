@@ -1,5 +1,7 @@
 # pretry
 
+[![ci](https://github.com/p-vbordei/pretry/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/pretry/actions/workflows/ci.yml)
+
 Promise retry with exponential backoff, jitter, `AbortSignal` cancellation, and a custom retriable predicate. Zero dependencies.
 
 ```ts
