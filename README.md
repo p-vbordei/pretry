@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/pretry/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/pretry/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Fpretry.svg)](https://www.npmjs.com/package/@p-vbordei/pretry)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Fpretry.svg)](https://www.npmjs.com/package/@p-vbordei/pretry)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Fpretry)](https://bundlejs.com/?q=%40p-vbordei%2Fpretry)
+
 Promise retry with exponential backoff, jitter, `AbortSignal` cancellation, and a custom retriable predicate. Zero dependencies.
 
 ```ts
