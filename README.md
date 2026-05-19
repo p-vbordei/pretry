@@ -5,7 +5,7 @@
 Promise retry with exponential backoff, jitter, `AbortSignal` cancellation, and a custom retriable predicate. Zero dependencies.
 
 ```ts
-import { retry, isRetriableHttpError } from "pretry";
+import { retry, isRetriableHttpError } from "@p-vbordei/pretry";
 
 // Retry a fetch up to 3 times on 5xx/429 with full jitter
 const res = await retry(async () => {
@@ -23,7 +23,7 @@ const res = await retry(async () => {
 ## Install
 
 ```sh
-npm install pretry
+npm install @p-vbordei/pretry
 ```
 
 ## API
